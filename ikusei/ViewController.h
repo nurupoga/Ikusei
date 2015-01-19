@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController{
     IBOutlet UILabel *LmoneyLabel;
+    int SumMoney;
 }
 
 

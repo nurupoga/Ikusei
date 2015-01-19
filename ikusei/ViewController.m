@@ -54,6 +54,8 @@
     if (touch.view.tag==2) {
         [touch.view removeFromSuperview];
         AudioServicesPlaySystemSound(sound_1);
+        SumMoney=SumMoney+20;
+        LmoneyLabel.text=[NSString stringWithFormat:@"%dG",SumMoney];
     }
 
 }
